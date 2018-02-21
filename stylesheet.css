@@ -21,7 +21,12 @@
 }
 
 #header-bottom-right{
-    bottom: 19px;
+    /*bottom: 19px;*/
+    background-color: rgba(0,0,0,0.5);
+}
+
+#header-bottom-right a{
+    color: #fff;
 }
 
 #header .tabmenu{
@@ -32,19 +37,28 @@
 }
 
 #header .tabmenu li{
-    font-weight: 400;
-    background: rgba(0,0,0,0.5)!important;
-    margin: 0;
-    padding: 4px 0;
 }
 
-#header .tabmenu li.selected a{
-  background-color: #00;
+.tabmenu li a{
+    background:#000;
+    color: #fff;
 }
 
-#header .tabmanu li a{
+#sr-header-area{
+	background-color: rgba(0,0,0,0.5);
+}
+#sr-header-area a{
+	color: #fff;
+}
 
-} 
+#RESShortcutsEditContainer{
+	background: transparent;
+}
+
+#RESShortcutsEditContainer div{
+	color: #fff;
+	background: transparent;
+}
 
 .tabmenu {
     list-style-type: none;
