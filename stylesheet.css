@@ -1,0 +1,74 @@
+.flair {
+    background: url(%%spritesheet%%) no-repeat -9999px;
+    border: 0;
+    padding: 0;
+}
+
+.flair-raveIcon {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+#header{
+    background: center;
+    background-image: url(%%raveBanner%%);
+    height: 200px;
+}
+
+#header-bottom-left{
+    padding-top: calc(200px - 45px - 22px);
+}
+
+#header-bottom-right{
+    /*bottom: 19px;*/
+    background-color: rgba(0,0,0,0.5);
+}
+
+#header-bottom-right a{
+    color: #fff;
+}
+
+#header .tabmenu{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.2em;
+}
+
+#header .tabmenu li{
+}
+
+.tabmenu li a{
+    background:#000;
+    color: #fff;
+}
+
+#sr-header-area{
+	background-color: rgba(0,0,0,0.5);
+}
+#sr-header-area a{
+	color: #fff;
+}
+
+#RESShortcutsEditContainer{
+	background: transparent;
+}
+
+#RESShortcutsEditContainer div{
+	color: #fff;
+	background: transparent;
+}
+
+.tabmenu {
+    list-style-type: none;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: bottom;
+}
+
+
+body{
+    /*background-color: #696969;*/
+}
